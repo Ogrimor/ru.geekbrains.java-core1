@@ -58,15 +58,15 @@ public class HomeWorkApp {
     public static void compareNumbers() {
 
         int a = 5, b = 10;
-         if (a >= b) {
+        if (a >= b) {
 
-             System.out.println("a >= b");
+            System.out.println("a >= b");
 
-         } else {
+        } else {
 
-             System.out.println("a < b");
+            System.out.println("a < b");
 
-         }
+        }
     }
 
 }
