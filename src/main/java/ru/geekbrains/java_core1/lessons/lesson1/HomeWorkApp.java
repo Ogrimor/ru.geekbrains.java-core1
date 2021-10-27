@@ -1,4 +1,5 @@
 package ru.geekbrains.java_core1.lessons.lesson1;
+import java.util.Scanner;
 
 public class HomeWorkApp {
 
@@ -21,7 +22,12 @@ public class HomeWorkApp {
 
     public static void checkSumSign() {
 
-        int a = 5, b = 10;
+        Scanner sc = new Scanner(System.in);
+
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        //int a = 5, b = 10;
         int resoult = a +b;
         if (resoult >= 0) {
 
@@ -32,6 +38,8 @@ public class HomeWorkApp {
             System.out.println("Сумма отрицательная");
 
         };
+
+        sc.close();
 
     }
 
